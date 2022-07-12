@@ -3,11 +3,9 @@
 In this exercise you will work with graphs trying to answer questions about standup 
 comedians.
 
-<img src="https://media.giphy.com/media/3oEjI44vogVayGlOqQ/giphy.gif" align=right/>
 
 ## Exercise 1. _Getting the data._
 
-**3 points**
 
 The data is in CSV format, in the `comedians.csv` file.  This CSV has two
 columns, `source` and `target`, and it represents the influences a comedian has
@@ -32,7 +30,6 @@ case any occur.
 
 ## Exercise 2.  _Influence chains._
 
-**2 points**
 
 In this exercise you will need to search influence chains in your graph.  You
 will need to implement the `influence_chains` function in the `comedians.py`
@@ -50,14 +47,12 @@ _comedy path_ between two comedians.
 
 ## Exercise 3.  _Top 10 influencers_
 
-**2 points**
 
 Implement the `top_10_influencers` function, and make it return a list with the
 top 10 most influential comedians in the graph.
 
 ## Exercise 4.  _Printing the graph_
 
-**1 point**
 
 For this exercise you will need to represent the data in the graph in
 a visual way.  You can try to do it by printing the data in a nice
@@ -67,21 +62,6 @@ In case you will end up using a library, you can take a look at
 https://networkx.org, a library included in Anaconda that's great for
 studying networks and graphs.
 
-# Due date
-
-This exercise is due on **2021-12-20, at 22:00 (Madrid time)**.  I will only correct the last in Github.
-
-# Evaluation method
-
-Maximum possible points: **10**
-
-| Area                 |       Points |
-| :------------------- | -----------: |
-| Exercise 1           | **3 points** |
-| Exercise 2           | **2 points** |
-| Exercise 3           | **2 points** |
-| Exercise 4           | **1 points** |
-| General coding style | **2 points** |
 
 
 # Attributions
